@@ -1,0 +1,11 @@
+.green {
+    transform: rotate(225deg);
+    height: 0;
+    width: 0;
+    border-top: 80px solid transparent;
+    border-right: 80px solid green;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    top: 370px;
+    left: 200px;
+}
