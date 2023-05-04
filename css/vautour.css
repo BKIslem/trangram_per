@@ -1,0 +1,32 @@
+.red.vautour{
+    top: 27%;
+    left: 26%;
+    transform: rotate(180deg);
+}
+.green.vautour{
+    top: 32.7%;
+    transform: rotate(135deg);
+    left: 52.5%;
+}
+.blue.vautour{
+    top: 31.2%;
+    left: 10%;
+    transform: rotate(270deg);
+}
+.yellow.vautour{
+    transform: rotate(45deg);
+    top: 29.2%;
+    left: 18.7%;
+}
+.purple.vautour{
+    top: 43.3%;
+    left: 72%;
+}
+.brown.vautour{
+    top: 65.5%;
+    left: 60.4%;
+}
+.orange.vautour{
+    top: 39.3%;
+    left: 62.95%;
+}
