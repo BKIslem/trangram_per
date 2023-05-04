@@ -1,0 +1,83 @@
+.red{
+    height : 0;
+    width : 0;
+    border-top : 80px solid red;
+    border-right : 80px solid transparent;
+    border-left : 80px solid transparent;
+
+    position: absolute;
+    left: 45%;
+    top: 58%;
+    transform: rotate(-90deg);
+    
+}
+.green{
+    height : 0;
+    width : 0;
+    border-top : 80px solid transparent;
+    border-right : 80px solid green;
+    border-bottom : 80px solid transparent;
+
+    position: absolute;
+    left: 34%;
+    top: 50%;
+    transform: rotate(0deg);
+}
+
+.blue{
+    height : 0;
+    width : 0;
+    border-top : 40px solid transparent;
+    border-bottom : 40px solid transparent;
+    border-left : 40px solid blue;
+
+    position: absolute;
+    left: 67.8%;
+    top: 50%;
+    transform: rotate(180deg);
+}
+.yellow{
+    height : 55px;
+    width : 55px;
+    position: absolute;
+    background-color: yellow;
+
+    position: absolute;
+    left: 59.9%;
+    top: 44.5%;
+    transform: rotate(45deg);
+}
+.purple{
+    height : 0;
+    width : 0;
+    position: absolute;
+    border-right : 85px solid transparent;
+    border-bottom : 85px solid purple;
+
+    position: absolute;
+    left: 21.9%;
+    top: 69.4%;
+    transform: rotate(135deg);   
+}
+.brown{
+    height : 0;
+    width : 0;
+    position: absolute;
+    border-right : 40px solid transparent;
+    border-bottom : 40px solid brown;
+    border-left : 40px solid transparent;
+
+    position: absolute;
+    left: 49.2%;
+    top: 86%;
+    transform: rotate(-135deg);
+}
+.orange {
+    position: absolute;
+    clip-path: polygon(22% 70%, 65% 70%, 89% 99%, 46% 99%);
+    background-color: orange;
+    transform-origin: left;
+    top: 24%;
+    left: 51%;
+    transform: rotateY(148deg) rotateZ(141deg);
+}
