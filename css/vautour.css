@@ -1,32 +1,32 @@
 .red.vautour{
-    top: 27%;
-    left: 26%;
+    top: 120px;
+    left: 80px;
     transform: rotate(180deg);
 }
-.green.vautour{
-    top: 32.7%;
+.green.vautour{    
+    top: 149px;
     transform: rotate(135deg);
-    left: 52.5%;
+    left: 172px;
 }
 .blue.vautour{
-    top: 31.2%;
-    left: 10%;
+    top: 140px;
+    left: 20px;
     transform: rotate(270deg);
 }
 .yellow.vautour{
     transform: rotate(45deg);
-    top: 29.2%;
-    left: 18.7%;
+    top: 133px;
+    left: 52px;
 }
 .purple.vautour{
-    top: 43.3%;
-    left: 72%;
+    top: 200px;
+    left: 240px;
 }
 .brown.vautour{
-    top: 65.5%;
-    left: 60.4%;
+    top: 313px;
+    left: 200px;
 }
 .orange.vautour{
-    top: 39.3%;
-    left: 62.95%;
+    top: 180px;
+    left: 208px;
 }
