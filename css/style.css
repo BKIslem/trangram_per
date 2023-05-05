@@ -12,10 +12,7 @@ body {
     height: 500px;    
     border-radius: 20px;    
     background-color: rgb(241, 241, 255);    
-    position: relative;    
-    display: flex;    
-    justify-content: center;    
-    align-items: center;    
+    position: relative;
     margin-bottom: 20px;
     overflow-x: hidden;
 }

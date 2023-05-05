@@ -1,73 +1,42 @@
 
 .green.cat {
         transform: rotate(225deg);
-        height: 0;
-        width: 0;
-        border-top: 80px solid transparent;
-        border-right: 80px solid green;
-        border-bottom: 80px solid transparent;
-        position: absolute;
         top: 355px;
         left: 183px;
 }
 
 .red.cat {
-    height: 0;
-    width: 0;
-    border-top: 80px solid red;
-    border-right: 80px solid transparent;
-    border-left: 80px solid transparent;
-    position: absolute;
+  
     left: 132px;
     top: 310px;
     transform: rotate(-90deg);
 }
 .yellow.cat {
-    height: 55px;
-    width: 55px;
-    position: absolute;
-    background-color: yellow;
+   
     transform: rotate(45deg);
     top: 205px;
     left: 145px;
 }
 .purple.cat {
-    height: 0;
-    width: 0;
-    position: absolute;
-    border-right: 85px solid transparent;
-    border-bottom: 85px solid purple;
+
     top: 290px;
     left: 130px;
     transform: rotate(45deg);
 }
 .brown.cat {
-    height: 0;
-    width: 0;
-    position: absolute;
-    border-right: 40px solid transparent;
-    border-bottom: 40px solid brown;
-    border-left: 40px solid transparent;
+   
     top: 170px;
     left: 155px;
     transform: rotate(-90deg);
 }
 .blue.cat {
-    height: 0;
-    width: 0;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-left: 40px solid blue;
-    position: absolute;
+ 
     left: 130px;
     top: 150px;
     transform: rotate(0deg);
 }
 .orange.cat {
-    position: absolute;
-    clip-path: polygon(22% 70%, 65% 70%, 89% 99%, 46% 99%);
-    background-color: orange;
-    transform-origin: left;
+   
     top: 314px;
     left: 361px;
     transform: rotateY(145deg);

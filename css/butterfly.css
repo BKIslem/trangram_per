@@ -1,72 +1,39 @@
 .red.butterfly {
-    height: 0;
-    width: 0;
-    border-top: 80px solid red;
-    border-right: 80px solid transparent;
-    border-left: 80px solid transparent;
-    position: absolute;
+
     left: 195px;
     top: 200px;
     transform: rotate(-45deg);
 }
 .green.butterfly {
-    height: 0;
-    width: 0;
-    border-top: 80px solid transparent;
-    border-right: 80px solid green;
-    border-bottom: 80px solid transparent;
-    position: absolute;
+ 
     top: 160px;
     left: 70px;
     transform: rotate(-45deg);
 }
 .blue.butterfly {
-    height: 0;
-    width: 0;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-left: 40px solid blue;
-    position: absolute;
+
     left: 104px;
     top: 242px;
     transform: rotate(-45deg);
 }
 .yellow.butterfly {
-    height: 55px;
-    width: 55px;
-    position: absolute;
-    background-color: yellow;
     transform: rotate(0deg);
     top: 269px;
     left: 139px;
 }
 .purple.butterfly{
-    height: 0;
-    width: 0;
-    position: absolute;
-    border-right: 85px solid transparent;
-    border-bottom: 85px solid purple;
+   
     top: 225px;
     left: 202px;
     transform: rotate(-45deg);
 }
 .brown.butterfly{
-    height: 0;
-    width: 0;
-    position: absolute;
-    border-right: 40px solid transparent;
-    border-bottom: 40px solid brown;
-    border-left: 40px solid transparent;
+  
     top: 319px;
     left: 112px;
     transform: rotate(-45deg);
 }
 .orange.butterfly{
-    position: absolute;
-    clip-path: polygon(22% 70%, 65% 70%, 89% 99%, 46% 99%);
-    background-color: orange;
-    transform: scaleX(1.2);
-    transform-origin: left;
     top: 159px;
     left: 195px;
     transform: rotate(45deg);

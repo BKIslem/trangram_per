@@ -1,3 +1,4 @@
+
 const btnGiraffe = document.getElementById('btnFour');
 const btnCarre = document.getElementById('btnOne');
 const btnVautour = document.getElementById('btnFive');
