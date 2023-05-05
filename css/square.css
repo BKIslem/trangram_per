@@ -1,67 +1,31 @@
 .red{
-    height : 0;
-    width : 0;
-    border-top : 80px solid red;
-    border-right : 80px solid transparent;
-    border-left : 80px solid transparent;
-    position: absolute;
-    top: 34%;
-    left: 27.2%;
+    top: 145px;
+    left: 90px;
 }
 .green{
-    height : 0;
-    width : 0;
-    border-top : 80px solid transparent;
-    border-right : 80px solid green;
-    border-bottom : 80px solid transparent;
-    position: absolute;
-    left: 50%;
-    top: 34%;
+    left: 170px;
+    top: 145px;
 }
 .blue{
-    height : 0;
-    width : 0;
-    border-top : 40px solid transparent;
-    border-bottom : 40px solid transparent;
-    border-left : 40px solid blue;
-    position: absolute;
-    top: 34%;
-    left: 27.2%;
+    top: 145.5px;
+    left: 90px;
 }
 .yellow{
-    height : 55px;
-    width : 55px;
-    position: absolute;
-    background-color: yellow;
     transform: rotate(45deg);
-    top: 44.3%;
-    left: 30.4%;
+    top: 197.4px;
+    left: 102.5px;
 }
 .purple{
-    height : 0;
-    width : 0;
-    position: absolute;
-    border-right : 85px solid transparent;
-    border-bottom : 85px solid purple;
-    top: 50%;
-    left: 27.2%;
+    top: 225px;
+    left: 90px;
 }
 .brown{
-    height : 0;
-    width : 0;
-    position: absolute;
-    border-right : 40px solid transparent;
-    border-bottom : 40px solid brown;
-    border-left : 40px solid transparent;
-    top: 49.6%;
-    left: 38.3%;
+    top: 224.6px;
+    left: 130px;
 }
 .orange{
-    position: absolute;
-    clip-path: polygon(22% 70%, 65% 70%, 89% 99%, 46% 99%);
-    background-color: orange;
     transform: scaleX(1.2);
     transform-origin: left;
-    top: 36.6%;
-    left: 27.1%;
+    top: 161.5px;
+    left: 90.2px;
 }
