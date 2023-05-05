@@ -1,33 +1,33 @@
-.red{
+.red.bird{
     transform: rotate(-90deg);
     top: 186px;
     left: 117px;
 }
-.green{
+.green.bird{
     left: 76px;
     top: 146px;
 }
-.blue{
+.blue.bird{
     transform: rotate(135deg);
     top: 288px;
     left: 128px;
 }
-.yellow{
+.yellow.bird{
     transform: rotate(45deg);
     top: 116px;
     left: 169px;
 }
-.purple{
+.purple.bird{
     transform: rotate(135deg);
     top: 243px;
     left: 33px;
 }
-.brown{
+.brown.bird{
     transform: rotate(-90deg);
     top: 165px;
     left: 177px;
 }
-.orange{
+.orange.bird{
     transform: rotateY(148deg) rotateZ(140deg);
     top: 27px;
     left: 155px;
