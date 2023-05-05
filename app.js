@@ -11,10 +11,10 @@ btnGiraffe.innerHTML = 'Giraffe';
 btnVautour.innerHTML = 'Vautour';
 btnCat.innerHTML= 'cat';
 btnButterfly.innerHTML= 'butterfly';
+
 btnCarre.addEventListener('click', () => {
     figures.forEach(elements => {
-        elements.classList.remove('giraffe')
-        elements.classList.remove('vautour')
+        elements.classList.remove('giraffe','vautour', 'cat')
         elements.classList.remove('cat')
         elements.classList.remove('butterfly')
     })
@@ -24,14 +24,12 @@ btnGiraffe.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('giraffe')
         elements.classList.remove('vautour')
-        elements.classList.remove('cat')
-        elements.classList.remove('butterfly')
     })
 })
 btnVautour.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('vautour')
-        elements.classList.remove('giraffe')
+        elements.classList.remove('giraffe', 'avion')
         elements.classList.remove('cat')
         elements.classList.remove('butterfly')
     })

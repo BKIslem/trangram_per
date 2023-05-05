@@ -4,8 +4,7 @@ body {
     position: relative;    
     display: flex;    
     flex-direction: column;    
-    align-items: center;    
-    height: 80vh;
+    align-items: center;
 }
 
 .canvas{
@@ -40,73 +39,4 @@ body {
     width: 150px;
     height: 150px;
     transition: all .8s !important;
-}
-
-.red{
-    height : 0;
-    width : 0;
-    border-top : 80px solid red;
-    border-right : 80px solid transparent;
-    border-left : 80px solid transparent;
-
-    position: absolute;
-    transform: rotate(0deg);
-    
-
-}
-.green{
-    height : 0;
-    width : 0;
-    border-top : 80px solid transparent;
-    border-right : 80px solid green;
-    border-bottom : 80px solid transparent;
-
-    position: absolute;
-    transform: rotate(0deg);
-}
-.blue{
-    height : 0;
-    width : 0;
-    border-top : 40px solid transparent;
-    border-bottom : 40px solid transparent;
-    border-left : 40px solid blue;
-
-    position: absolute;
-    transform: rotate(0deg);
-}
-.yellow{
-    height : 55px;
-    width : 55px;
-    position: absolute;
-    background-color: yellow;
-
-    position: absolute;
-    transform: rotate(0deg);
-}
-.purple{
-    height : 0;
-    width : 0;
-    position: absolute;
-    border-right : 85px solid transparent;
-    border-bottom : 85px solid purple;
-
-    position: absolute;
-
-}
-.brown{
-    height : 0;
-    width : 0;
-    position: absolute;
-    border-right : 40px solid transparent;
-    border-bottom : 40px solid brown;
-    border-left : 40px solid transparent;
-
-    position: absolute;
-}
-.orange{
-    background-color: orange;
-    width: 150px;
-    height: 150px;
-
-    position: absolute;
 }
