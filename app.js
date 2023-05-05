@@ -1,51 +1,47 @@
 
-const btnGiraffe = document.getElementById('btnFour');
-const btnCarre = document.getElementById('btnOne');
-const btnVautour = document.getElementById('btnFive');
-const btnCat = document.getElementById('btnTwo');
-const btnButterfly = document.getElementById('btnThree');
-const btnBird = document.getElementById('btnSix');
-const btnAvion = document.getElementById('btnSeven')
-const figures = document.querySelectorAll('.figure');
+let btnGiraffe = document.getElementById('btnFour');
+let btnCarre = document.getElementById('btnOne');
+let btnCat = document.getElementById('btnTwo');
+let btnButterfly = document.getElementById('btnThree');
+let btnAvion = document.getElementById('btnFive');
+let btnBird = document.getElementById('btnSix');
+let figures = document.querySelectorAll('.figure');
 
 
 btnCarre.innerHTML = 'Carré';
+btnCat.innerHTML= 'Chat';
+btnButterfly.innerHTML= 'Pappillon';
 btnGiraffe.innerHTML = 'Giraffe';
-btnVautour.innerHTML = 'Vautour';
-btnCat.innerHTML= 'cat';
-btnButterfly.innerHTML= 'butterfly';
-btnBird.innerHTML = 'bird';
 btnAvion.innerHTML = 'Avion';
+btnBird.innerHTML = 'Oiseau';
 
-function animale(classe) {
-    figures.forEach(function(element){
-        element.classList.remove("cat", "vautour", "giraffe" ,'avion' ,'bird' ,'butterfly');
-        element.classList.add(classe)
-    });
+
+
+function animals(classe) {
+    figures.forEach(elements => {
+        elements.classList.remove('giraffe', 'cat','butterfly', 'bird','avion' ,'carre')
+        elements.classList.add (classe)
+    })
 }
-
- btnGiraffe.addEventListener("click", (event) => {
-    animale('giraffe')
-  });
-  btnVautour.addEventListener("click", (event) => {
-    animale('vautour')
-  });
-  btnCat.addEventListener("click", (event) => {
-    animale('cat')
-  });
-  btnBird.addEventListener("click", (event) => {
-    animale('bird')
-  });
-  btnAvion.addEventListener("click", (event) => {
-    animale('avion')
-  });
-  btnCarre.addEventListener("click", (event) => {
-    animale('carre')
-  });
-  btnButterfly.addEventListener("click", (event) => {
-    animale('butterfly')
-  });
-
-
+btnCarre.addEventListener('click', () => {
+    animals('carre')
     
-  
+})
+btnGiraffe.addEventListener('click', () => {
+    animals('giraffe')
+})
+btnCat.addEventListener('click', () => {
+   
+    animals('cat')
+})
+btnButterfly.addEventListener('click', () => {
+    animals('butterfly')
+})
+
+btnBird.addEventListener('click', () => {
+    animals('bird')
+})
+
+btnAvion.addEventListener('click', () => {
+    animals('avion') 
+})
