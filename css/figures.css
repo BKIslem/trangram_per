@@ -61,9 +61,7 @@
     position: absolute;
 }
 .orange{
-    background-color: orange;
-    width: 150px;
-    height: 150px;
-
-    position: absolute;
+        position: absolute;
+        clip-path: polygon(22% 69%, 67% 69%, 90% 98%, 47% 99%);
+        background-color: orange;
 }
