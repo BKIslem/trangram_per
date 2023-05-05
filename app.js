@@ -15,33 +15,32 @@ btnButterfly.innerHTML= 'butterfly';
 btnCarre.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.remove('giraffe','vautour', 'cat','butterfly')
-        elements.classList.add('Carré')
     })
 })
 
 btnGiraffe.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('giraffe')
-        elements.classList.remove('vautour','Carré', 'cat','butterfly')
+        elements.classList.remove('vautour', 'cat','butterfly')
     })
 })
 btnVautour.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('vautour')
-        elements.classList.remove('giraffe','Carré', 'cat','butterfly')
+        elements.classList.remove('giraffe', 'cat','butterfly')
     
     })
 })
 btnCat.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('cat')
-        elements.classList.remove('vautour','Carré','vautour','butterfly')
+        elements.classList.remove('vautour','vautour','butterfly', 'giraffe')
     })
 })
 btnButterfly.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('butterfly')
-        elements.classList.remove('vautour','giraffe','Carré', 'cat')
+        elements.classList.remove('vautour','giraffe', 'cat')
     })
 })
 
