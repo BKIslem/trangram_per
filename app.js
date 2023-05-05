@@ -16,40 +16,39 @@ btnBird.innerHTML = 'bird';
 
 btnCarre.addEventListener('click', () => {
     figures.forEach(elements => {
-        elements.classList.remove('giraffe','vautour', 'cat','butterfly')
-        elements.classList.add('Carré')
+        elements.classList.remove('giraffe','vautour', 'cat','butterfly', 'bird')
     })
 })
 
 btnGiraffe.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('giraffe')
-        elements.classList.remove('vautour', 'cat','butterfly')
+        elements.classList.remove('vautour', 'cat','butterfly', 'bird')
     })
 })
 btnVautour.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('vautour')
-        elements.classList.remove('giraffe','Carré', 'cat','butterfly')
+        elements.classList.remove('giraffe', 'cat','butterfly', 'bird')
     
     })
 })
 btnCat.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('cat')
-        elements.classList.remove('vautour','Carré','vautour','butterfly')
+        elements.classList.remove('vautour','butterfly', 'bird', 'giraffe')
     })
 })
 btnButterfly.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('butterfly')
-        elements.classList.remove('vautour','giraffe','Carré', 'cat')
+        elements.classList.remove('vautour','giraffe', 'cat', 'bird')
     })
 })
 
 btnBird.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('bird')
-        elements.classList.remove('vautour','giraffe','Carré', 'cat', 'butterfly')
+        elements.classList.remove('vautour','giraffe', 'cat', 'butterfly')
     })
 })
