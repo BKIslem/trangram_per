@@ -1,63 +1,53 @@
-const btnGiraffe = document.getElementById('btnFour');
 const btnCarre = document.getElementById('btnOne');
-const btnVautour = document.getElementById('btnFive');
 const btnCat = document.getElementById('btnTwo');
 const btnButterfly = document.getElementById('btnThree');
+const btnGiraffe = document.getElementById('btnFour');
+const btnAvion = document.getElementById('btnFive');
 const btnBird = document.getElementById('btnSix');
-const btnAvion = document.getElementById('btnSeven')
 const figures = document.querySelectorAll('.figure');
 
 
 btnCarre.innerHTML = 'Carré';
+btnCat.innerHTML= 'Chat';
+btnButterfly.innerHTML= 'Pappillon';
 btnGiraffe.innerHTML = 'Giraffe';
-btnVautour.innerHTML = 'Vautour';
-btnCat.innerHTML= 'cat';
-btnButterfly.innerHTML= 'butterfly';
-btnBird.innerHTML = 'bird';
 btnAvion.innerHTML = 'Avion';
+btnBird.innerHTML = 'Oiseau';
+
 
 btnCarre.addEventListener('click', () => {
     figures.forEach(elements => {
-        elements.classList.remove('giraffe','vautour', 'cat','butterfly', 'bird','avion')
-    })
-})
-
-btnGiraffe.addEventListener('click', () => {
-    figures.forEach(elements => {
-        elements.classList.add('giraffe')
-        elements.classList.remove('vautour', 'cat','butterfly', 'bird','avion')
-    })
-})
-btnVautour.addEventListener('click', () => {
-    figures.forEach(elements => {
-        elements.classList.add('vautour')
         elements.classList.remove('giraffe', 'cat','butterfly', 'bird','avion')
-    
     })
 })
 btnCat.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('cat')
-        elements.classList.remove('vautour','butterfly', 'bird', 'giraffe','avion')
+        elements.classList.remove('butterfly', 'bird', 'giraffe','avion')
     })
 })
 btnButterfly.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('butterfly')
-        elements.classList.remove('vautour','giraffe', 'cat', 'bird','avion')
+        elements.classList.remove('giraffe', 'cat', 'bird','avion')
     })
 })
-
-btnBird.addEventListener('click', () => {
+btnGiraffe.addEventListener('click', () => {
     figures.forEach(elements => {
-        elements.classList.add('bird')
-        elements.classList.remove('vautour','giraffe', 'cat', 'butterfly','avion')
+        elements.classList.add('giraffe')
+        elements.classList.remove('cat','butterfly', 'bird','avion')
     })
 })
-
 btnAvion.addEventListener('click', () => {
     figures.forEach(elements => {
         elements.classList.add('avion')
-        elements.classList.remove('vautour','giraffe', 'cat', 'butterfly','bird')
+        elements.classList.remove('giraffe', 'cat', 'butterfly','bird')
     })
 })
+btnBird.addEventListener('click', () => {
+    figures.forEach(elements => {
+        elements.classList.add('bird')
+        elements.classList.remove('giraffe', 'cat', 'butterfly','avion')
+    })
+})
+
