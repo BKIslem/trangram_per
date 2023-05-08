@@ -5,6 +5,7 @@ let btnCat = document.getElementById('btnTwo');
 let btnButterfly = document.getElementById('btnThree');
 let btnAvion = document.getElementById('btnFive');
 let btnBird = document.getElementById('btnSix');
+let btnSurprise = document.getElementById('btnSeven')
 let figures = document.querySelectorAll('.figure');
 
 
@@ -14,15 +15,19 @@ btnButterfly.innerHTML= 'Pappillon';
 btnGiraffe.innerHTML = 'Giraffe';
 btnAvion.innerHTML = 'Avion';
 btnBird.innerHTML = 'Oiseau';
+btnSurprise.innerHTML='Surprise';
 
 
 
 function animals(classe) {
     figures.forEach(elements => {
-        elements.classList.remove('giraffe', 'cat','butterfly', 'bird','avion' ,'carre')
+        elements.classList.remove('giraffe', 'cat','butterfly', 'bird','avion' ,'carre','surprise')
         elements.classList.add (classe)
     })
 }
+btnSurprise.addEventListener('click',()=>
+{animals('surprise')
+})
 btnCarre.addEventListener('click', () => {
     animals('carre')
     

@@ -1,0 +1,35 @@
+.green.surprise {
+    left: 140px;
+    top: 335px;
+    transform: rotate(-45deg);
+}
+.red.surprise {
+    top: 203px;
+    left: 100px;
+    transform: rotate(135deg);
+}
+.yellow.surprise {
+    transform: rotate(45deg);
+    top: 300px;
+    left: 163px;
+}
+.orange.surprise {
+    top: 230px;
+    left: 180px;
+    transform: rotateY(145deg);
+}
+.brown.surprise {
+    top: 267px;
+    left: 206px;
+    transform: rotate(-135deg);
+}
+.purple.surprise {
+    top: 230px;
+    left: 108px;
+    transform: rotate(45deg);
+}
+.blue.surprise {
+    top: 247px;
+    left: 192px;
+    transform: rotate(180deg);
+}
